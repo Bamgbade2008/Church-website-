@@ -1,0 +1,237 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Victory Center Teens Church</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background: #fff;
+      color: #000;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+    }
+    header img {
+      width: 120px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+    }
+    .menu {
+      display: none;
+      flex-direction: column;
+    }
+    .menu a {
+      text-decoration: none;
+      color: #000;
+      margin: 10px 0;
+    }
+    .hamburger {
+      cursor: pointer;
+      font-size: 24px;
+    }
+    section {
+      margin: 30px 0;
+    }
+    h1, h2, h3 {
+      margin-bottom: 10px;
+    }
+    p, li {
+      margin-bottom: 10px;
+    }
+    img.group {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      margin: 10px 0;
+    }
+    @media(min-width: 600px) {
+      .menu {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+      }
+      .hamburger {
+        display: none;
+      }
+    }
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://dl.dropbox.com/scl/fi/q6jqcozz5cioup1nct3g6/Screenshot_20250523-075336_1.png?rlkey=vh93wr71vvnwnoxbth1tmwurq&raw=1" alt="Church Logo">
+    <h1>VICTORY CENTER TEENS CHURCH</h1>
+    
+  </header>  <nav>
+    <div class="hamburger" onclick="toggleMenu()">☰ </div>
+    <div class="menu" id="menu">
+      <a href="#home" onclick="showPage('home')">Home</a>
+      <a href="#about" onclick="showPage('about')">About</a>
+      <a href="#events" onclick="showPage('events')">Events</a>
+      <a href="#giving" onclick="showPage('giving')">Tithe & Offering</a>
+      <a href="#contact" onclick="showPage('contact')">Contact</a>
+    </div>
+  </nav>  <main>
+    <section id="home">
+      <p><strong><h1>WELCOME MESSAGE BY   PASTOR OBADOFIN ADUN</h1></strong></p>
+      <h4>Welcome to Our Church Family!</h4>
+      <p>We’re so glad you’re here! Whether you’re new to the area, searching for a church home, or just exploring faith, we welcome you with open hearts. At Victory center we’re a community of believers committed to loving God, serving others, and growing together in faith.</p>
+      <p>Join us for worship, connect with others, and discover how God is moving in and through our church. There’s a place here for you!</p>
+      <p>We can't wait to meet you.</p>
+      <img class="group" src="https://www.dropbox.com/scl/fi/st8hd8cmn2vp5ey1wt4qk/Screenshot_20250523-075550_1.png?rlkey=q5hor0epnasenit22xpstyvnb&raw=1" alt="Group Picture">
+      <h2>RCCG Mission and Vision</h2>
+      <ul>
+        <li>To make heaven.</li>
+        <li>To take as many people with us.</li>
+        <li>To have a member of RCCG in every family of all nations.</li>
+        <li>To accomplish No. 1 above, holiness will be our lifestyle.</li>
+        <li>To accomplish No. 2 and 3 above, we will plant churches within five minutes walking distance in every city and town of developing countries and within fifteen minutes driving distance in every city and towm of developed countries</l1>
+        <li>We will pursue these objectives until every Nation of the world  is reached for the lord.</li>
+      </ul>
+      <ul>
+        <h2>Our Goal is simple:</h2><br> To raise Exemplary teenagers, who would be equipped and sound in word, action, conversation, love, spirituality , faith and purity
+      </ul>
+      <img class="group" src="https://www.dropbox.com/scl/fi/m62s9b9nfzn25yp0rmljf/Screenshot_20250528-095459_1.png?rlkey=07dm4k3d9mskwme8quoma96h7&raw=1" alt="Another Group Picture">
+      <h2>Service Times</h2>
+      <ul>
+        <li><strong>Sunday:</strong> 8:00AM</li>
+        <li><strong>Tuesday:</strong> 6:30PM</li>
+        <li><strong>Thursday:</strong> 6:30PM</li>
+      </ul>
+      <h2>Location & Contact information</h2>
+      <p><h4>Location:</h4><br>Victory center, RCCG Lagos province 89 HQ, 58 Iju road, Agege, Lagos.</p>
+      <p><h4>contact info:</h4></br>+234 810 573 3592 </p>
+      <h4>Email:</h4>
+<p>
+  <a href="mailto:rccgvictoryteens@gmail.com">rccgvictoryteens@gmail.com</a>
+</p>
+      
+      <p><h4>Connect and follow us on our social media page : </h4><br><a href="https://www.instagram.com/rccgvictoryteens">@rccgvictoryteens</a></p>
+    </section><section id="about" class="hidden">
+  <h2>About Victory Teens Church</h2>
+  <p><h3>Who We Are:</h3></p>Victory Teens Church is the teenagers arm of the RCCG Lagos Province 89 Victory Center Church (HQ) built to empower teenagers to grow in their faith, discover their purpose, and influence their generation for Christ.</p>
+  
+  <p><h3>VISON AND MISSION</h3></p>
+
+  <p>Our mission and vision aligns with the RCCG vision and mission:</p>
+  <ul>
+    <li>To make heaven.</li>
+    <li>To take as many people with us.</li>
+    <li>To have a member of RCCG in every family of all nations.</li>
+    <li>To accomplish No.1 above ,holiness woukd be our lifestyle </li>
+    <li>To accomplish No. 2 and 3 above, we will plant churches within five minutes walking distance in every city and town of developing countries and within fifteen minutes from driving distance in every city and town of developed countries.</li>
+     <li>We will pursue these objectives until every Nation in the world is reached for the Lord</li>
+
+  </ul>
+  <p><strong>OUR GOAL :</strong><br> 
+  Our Goal is simple: To raise Exemplary teenagers, who would be equipped and sound in word, action, conversation, love, spirituality , faith and purity</p>
+  <h3>LEADERSHIP TEAM</h3>
+  <p>At Victory Center Teens Church, our leadership team is passionate about guiding teenagers into a deeper relationship with God.
+Led by dedicated pastors and committed teen leaders, this team provides spiritual mentorship, encouragement, and discipleship to help every teen grow in faith, character, and purpose.
+Their hearts are committed to creating a loving, fun, and Christ-centered environment where teens feel seen, heard, and empowered to thrive.
+
+Meet our teens pastors ; 
+</p>
+  <p><h3>Pastor Kusimo John</h3> :</p>
+  <img class="group" src=https://dl.dropbox.com/scl/fi/rynjh6f27ciouca7y5isv/Screenshot_20250617-090342_1.png?rlkey=c5otsc7n5uy8dfpfgmomtvpoy&st=2gngklkj&dl=0">
+  <p><h3>Pastor Obadofin Adunoluwa</h3></p>
+  <img class="group" src= https://dl.dropbox.com/scl/fi/6wch2i1socuenzr6ndr3d/Screenshot_20250611-194440_1.png?rlkey=go5ydt0bszpo89omdiqbyl1pd&st=2oa6fw0g&dl=0">
+  <p><h3>Pastor Folorunsho Ayomide </h3></p>
+  <img class ="group" src= https://dl.dropbox.com/scl/fi/t0w122a5czei15ar7sv2s/Screenshot_20250611-193908_1.png?rlkey=tswweaoollyqtmj0lb23savf8&st=b025vgbk&dl=0">
+  <p><h3>Pastor Adeleke Folake</h3></p>
+  <img class = " group " src= "">
+  <p><i>Now that you know about us, we’d love to know you too!
+Come worship with us, grow with us, and be a part of what God is doing through Victory Teens.</i></p>
+</section>
+
+<section id="events" class="hidden">
+  <h2>Upcoming Events</h2>
+  <ul>
+    <li><strong>Sunday Service:</strong> 8:00AM</li>
+    <img class="group" src=  https://dl.dropbox.com/scl/fi/zvv4ctet0bk0j7aa5omxc/Screenshot_20250612-215546_1.png?rlkey=ftvz4ug9vp08eufgrmic8bp9y&st=mwjgp7qa&dl=0">
+    <li><strong>Digging Deep (Tuesday):</strong> 6:30PM</li>
+    <img class="group" src =https://dl.dropbox.com/scl/fi/ylf8ynfub6ppp2fadbvfy/Screenshot_20250619-230746_1.png?rlkey=dy5z6pdy6wnqu6h3pojsrftd6&st=zlpgxx07&dl=0">
+    <li><strong>Faith Clinic (Thursday):</strong> 6:30PM</li>
+    <img class = "group" src= https://dl.dropbox.com/scl/fi/qro61dzolx73tvuy5wqrh/Screenshot_20250619-230920_1.png?rlkey=8oo6iwlo4ozdqlnj0aolacdka&st=ajubnx4s&dl=0">
+    <p>Don’t miss out on any of our upcoming events—God has something special for you!<br>Stay updated on upcoming events and moments that matter.
+Follow us on social media for the latest updates and live highlights! 
+</p>
+  </ul>
+</section>
+
+<section id="giving" class="hidden">
+  <h2>Tithes & Offering</h2>
+  <img class="group" src="https://dl.dropbox.com/scl/fi/v62jsl81mzn9ec0285etc/Screenshot_20250620-000442_1.png?rlkey=k1gyva5uyd8tb7jxcki70gn81&st=yr1xsy3k&dl=0">
+  <blockquote>Malachi 3:10 (NIV)<br>
+  "Bring the whole tithe into the storehouse, that there may be food in my house. Test me in this,” says the Lord Almighty, “and see if I will not throw open the floodgates of heaven and pour out so much blessing that there will not be room enough to store it.
+  </blockquote><br>
+  <p><h4>Are you willing to pay your tithes or offering or are you led to support the victory center Junior church</h4></p>
+  <p>Here is our account details; </p>
+  <p><strong>Bank:</strong> Zenith Bank<br>
+    <strong>Account Name:</strong> Rccg Victory Center Teens Church<br>
+    <strong>Account Number:</strong> 1222753923</p>
+    <p><h4>"Honor the Lord with your wealth, with the firstfruits of all your crops;" - Proverbs 3:9<br>
+We pray that even as you have honoured the lord with your substance 
+He would bless you beyond measures.</h4></p>
+</section>
+<section id="contact" class="hidden">
+  <h2>Contact Us</h2>
+  <img class="group" src=https://dl.dropbox.com/scl/fi/pu43kzu8f99o921i4775n/Screenshot_20250620-082504_1.png?rlkey=dw8gwuo38po8ao5tdvtofeb9p&st=ww40wt0t&dl=0">
+  <p>Reach out to us with any questions,prayer, request or feedback.<br>We're here to help!</p>
+  <p><h4>Our location ;</h4></p>
+  <p>Victory center, RCCG Lagos province 89 HQ, 58 Iju Road, Agege, Lagos</p>
+  <p><h4>Phone:</h4>+2348105733592</p>
+  <p><h4>Email:</h4><a href="mailto:rccgvictoryteens@gmail.com">rccgvictoryteens@gmail.com</a></p>
+  <p><h4>Instagram:</h4> <a href="https://www.instagram.com/rccgvictoryteens">@rccgvictoryteens</a></p>
+  <p><i>We're Here for You!
+
+Whether you have a question, a prayer request, or just want to say hello — don’t hesitate to reach out.
+We look forward to hearing from you and walking this journey of faith together.
+
+God bless you!</i></p>
+
+  </section>
+
+  </main>  <script>
+  function toggleMenu() {
+    const menu = document.getElementById('menu');
+    menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+  }
+
+  function showPage(id) {
+    document.querySelectorAll('main > section').forEach(sec => {
+      sec.classList.add('hidden');
+    });
+    document.getElementById(id).classList.remove('hidden');
+  }
+
+  // Show home by default
+  showPage('home');
+
+  // Close menu when a link is clicked (mobile only)
+  document.querySelectorAll('.menu a').forEach(link => {
+    link.addEventListener('click', () => {
+      const menu = document.getElementById('menu');
+      if (window.innerWidth < 600) {
+        menu.style.display = 'none';
+      }
+    });
+  });
+</script>
+  </script></body>
+</html>
